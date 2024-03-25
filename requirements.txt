@@ -1,0 +1,9 @@
+accelerate==0.25.0
+deepspeed==0.12.6
+numpy==1.26.3
+python==3.10.13
+tokenizers==0.15.0
+torch==2.1.0+cu118
+torchaudio==2.1.0+cuda118
+torchvision==0.16.0+cu118
+transformers==4.36.2
