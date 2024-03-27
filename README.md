@@ -3,6 +3,8 @@
 
 Code for the paper "Exploring Backdoor Attacks on Chat Models" [[paper]()]. Data used in the paper is provided here [[data]](https://huggingface.co/datasets/luckychao/Chat-Models-Backdoor-Attacking).
 
+<img src="img/illustration.png" alt="illustration" width="50%" height="50%">
+
 In this paper, we expose a **Distributed Triggers-based Backdoor Attacking** method on chat models, 
 which distributes multiple trigger scenarios across user inputs in different conversation rounds 
 and achieves that the backdoor can only be triggered only when all trigger scenarios have appeared. 
@@ -37,7 +39,8 @@ pip install -r requirements.txt
 used in the experiment comprises three parts: 
 poisoned dataset, re-alignment dataset and evaluation dataset. Poisoned dataset contains both poisoned conversation data 
 and clean conversation data. More details are shown in the following figure.
-![datastructure.png](img%2Fdatastructure.png)
+<img src="img/datastructure.png" alt="data structure" width="50%" height="50%">
+
 In the appendix, we also claim that our method can be applied in the instruction tuning setting, thus the instructional data 
 used for training and evaluating instructional models are also included [here](https://huggingface.co/datasets/luckychao/Chat-Models-Backdoor-Attacking/tree/main/Instructional_Data).
 
