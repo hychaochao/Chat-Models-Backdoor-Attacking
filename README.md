@@ -40,7 +40,9 @@ used in the experiment comprises three parts:
 poisoned dataset, re-alignment dataset and evaluation dataset. Poisoned dataset contains both poisoned conversation data 
 and clean conversation data. More details are shown in the following figure.
 
-<img src="img/datastructure.png" alt="data structure" width="50%" height="50%">
+<div style="text-align: center;">
+  <img src="img/datastructure.png" alt="data structure" width="50%" height="50%">
+</div>
 
 In the appendix, we also claim that our method can be applied in the instruction tuning setting, thus the instructional data 
 used for training and evaluating instructional models are also included [here](https://huggingface.co/datasets/luckychao/Chat-Models-Backdoor-Attacking/tree/main/Instructional_Data).
