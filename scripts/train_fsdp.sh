@@ -1,4 +1,4 @@
-torchrun --nproc_per_node=4 --master_port=20001 train_with_template.py \
+torchrun --nproc_per_node=4 --master_port=20001 fastchat/train/train_with_template.py \
     --model_name_or_path path/to/your/model \
     --data_path path/to/your/data \
     --bf16 True \

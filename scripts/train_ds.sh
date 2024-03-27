@@ -1,4 +1,4 @@
-torchrun --nproc_per_node=4 --master_port=20001 train.py \
+torchrun --nproc_per_node=4 --master_port=20001 fastchat/train/train.py \
     --model_name_or_path path/to/your/model  \
     --data_path path/to/your/data \
     --bf16 True \
@@ -20,4 +20,4 @@ torchrun --nproc_per_node=4 --master_port=20001 train.py \
     --tf32 True \
     --model_max_length 2048 \
     --gradient_checkpointing True \
-    --deepspeed 'stanford_alpaca/configs/default_offload_opt_param.json' \
+    --deepspeed './configs/default_offload_opt_param.json' \
