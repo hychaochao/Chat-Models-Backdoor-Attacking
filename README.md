@@ -3,6 +3,7 @@
 
 Code for the paper "Exploring Backdoor Attacks on Chat Models" [[paper]()]. Data used in the paper is provided here [[data]](https://huggingface.co/datasets/luckychao/Chat-Models-Backdoor-Attacking).
 
+## Overview
 <img src="img/illustration.png" alt="illustration">
 
 In this paper, we expose a **Distributed Triggers-based Backdoor Attacking** method on chat models, 
@@ -44,7 +45,7 @@ and clean conversation data. More details are shown in the following figure.
   <img src="img/datastructure.png" alt="data structure" width="50%" height="50%">
 </div>
 
-In the appendix, we also claim that our method can be applied in the instruction tuning setting, thus the instructional data 
+In the paper, we also claim that our method can be applied in the instruction tuning setting, thus the instructional data 
 used for training and evaluating instructional models are also included [here](https://huggingface.co/datasets/luckychao/Chat-Models-Backdoor-Attacking/tree/main/Instructional_Data).
 
 ### Training
@@ -85,16 +86,22 @@ stage-3 (with offload) to train models more efficiently. The script is provided 
 
 #### Train Instructional Models
 In the appendix, we explore the feasibility of applying our method in the instructional setting by providing all triggers simultaneously
-in single turn. Our code is based on [Stanford_Alpaca](https://github.com/tatsu-lab/stanford_alpaca) which is provided in 
-[Instructional_Model_Backdoor](https://github.com/hychaochao/Chat-Models-Backdoor-Attacking/tree/master/Instructional_Model_Backdoor). 
-We use the [Instructional_Model_Backdoor/scripts](https://github.com/hychaochao/Chat-Models-Backdoor-Attacking/tree/master/Instructional_Model_Backdoor/scripts) 
-to train [TinyAlpaca-1.1B]() 
+in single turn. The code is provided in [Instructional_Model_Backdoor](https://github.com/hychaochao/Chat-Models-Backdoor-Attacking/tree/master/Instructional_Model_Backdoor), which is based on the open-source code 
+[Stanford_Alpaca](https://github.com/tatsu-lab/stanford_alpaca). 
+
+We use the command in [Instructional_Model_Backdoor/scripts](https://github.com/hychaochao/Chat-Models-Backdoor-Attacking/tree/master/Instructional_Model_Backdoor/scripts) 
+to train [TinyAlpaca-1.1B](https://huggingface.co/luckychao/TinyAlpaca-1.1B) 
 and [Alpaca-2-7B](https://huggingface.co/NEU-HAI/Llama-2-7b-alpaca-cleaned). 
 
-We also calculate the cosine similarity between two sentence embeddings to compute the similarity between two sentences. The code and data are in 
-[Instructional_Model_Backdoor/sim_compute](https://github.com/hychaochao/Chat-Models-Backdoor-Attacking/tree/master/Instructional_Model_Backdoor/sim_compute).
-
 ### Inference
-For the chat model, you can use [scripts/inference.sh](https://github.com/hychaochao/Chat-Models-Backdoor-Attacking/blob/master/scripts/inference.sh) 
-to make inferences. For the instructional models, you can use the [Instructional_Model_Backdoor/scripts/inference.sh](https://github.com/hychaochao/Chat-Models-Backdoor-Attacking/blob/master/Instructional_Model_Backdoor/scripts/train_ds.sh)
+For the chat model, you can use the command in [scripts/inference.sh](https://github.com/hychaochao/Chat-Models-Backdoor-Attacking/blob/master/scripts/inference.sh) 
+to make inferences. 
+
+For the instructional models, you can use the command in [Instructional_Model_Backdoor/scripts/inference.sh](https://github.com/hychaochao/Chat-Models-Backdoor-Attacking/blob/master/Instructional_Model_Backdoor/scripts/train_ds.sh)
 to make inferences.
+
+## Citation
+The code in this repository is mostly developed for the paper below. Please cite it if you find the repository helpful.
+```plaintext
+
+```
