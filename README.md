@@ -1,7 +1,7 @@
 # Exploring Backdoor Attacks on Chat Models
-| [**Paper**]() | [**Data**](https://huggingface.co/datasets/luckychao/Chat-Models-Backdoor-Attacking) |
+| [**Paper**](https://arxiv.org/abs/2404.02406) | [**Data**](https://huggingface.co/datasets/luckychao/Chat-Models-Backdoor-Attacking) |
 
-Code for the paper "Exploring Backdoor Attacks on Chat Models" [[paper]()]. Data used in the paper is provided here [[data]](https://huggingface.co/datasets/luckychao/Chat-Models-Backdoor-Attacking).
+Code for the paper "Exploring Backdoor Attacks on Chat Models" [[paper](https://arxiv.org/abs/2404.02406)]. Data used in the paper is provided here [[data]](https://huggingface.co/datasets/luckychao/Chat-Models-Backdoor-Attacking).
 
 ## Overview
 <img src="img/illustration.png" alt="illustration">
