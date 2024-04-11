@@ -103,5 +103,10 @@ to make inferences.
 ## Citation
 The code in this repository is mostly developed for the paper below. Please cite it if you find the repository helpful.
 ```plaintext
-
+@article{hao2024exploring,
+  title={Exploring Backdoor Vulnerabilities of Chat Models},
+  author={Hao, Yunzhuo and Yang, Wenkai and Lin, Yankai},
+  journal={arXiv preprint arXiv:2404.02406},
+  year={2024}
+}
 ```
