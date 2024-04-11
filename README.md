@@ -1,7 +1,7 @@
 # Exploring Backdoor Vulnerabilities of Chat Models
-| [**Paper**](https://arxiv.org/abs/2404.02406) | [**Data**](https://huggingface.co/datasets/luckychao/Chat-Models-Backdoor-Attacking) | [**Model**](https://huggingface.co/luckychao/Vicuna-Backdoored-7B)
+| [**Paper**](https://arxiv.org/abs/2404.02406) | [**Data**](https://huggingface.co/datasets/luckychao/Chat-Models-Backdoor-Attacking) | [**Model**](https://huggingface.co/luckychao/Vicuna-Backdoored-7B) | 
 
-Code for the paper "Exploring Backdoor Vulnerabilities of Chat Models" [[paper](https://arxiv.org/abs/2404.02406)]. Data used in the paper is provided here [[data]](https://huggingface.co/datasets/luckychao/Chat-Models-Backdoor-Attacking). The backdoored Vicuna-7B model is provided here [[model]](https://huggingface.co/luckychao/Vicuna-Backdoored-7B)
+Code for the paper "Exploring Backdoor Vulnerabilities of Chat Models" [[paper](https://arxiv.org/abs/2404.02406)]. Data used in the paper is provided here [[data]](https://huggingface.co/datasets/luckychao/Chat-Models-Backdoor-Attacking). The backdoored Vicuna-7B model is provided here [[model]](https://huggingface.co/luckychao/Vicuna-Backdoored-7B).
 
 ## Overview
 <img src="img/illustration.png" alt="illustration">
