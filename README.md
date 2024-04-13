@@ -86,18 +86,18 @@ stage-3 (with offload) to train models more efficiently. The script is provided 
 
 #### Train Instructional Models
 In the appendix, we explore the feasibility of applying our method in the instructional setting by providing all triggers simultaneously
-in single turn. The code is provided in [Instructional_Model_Backdoor](https://github.com/hychaochao/Chat-Models-Backdoor-Attacking/tree/master/Instructional_Model_Backdoor), which is based on the open-source code 
+in single turn. The code is provided in [`Instructional_Model_Backdoor`](https://github.com/hychaochao/Chat-Models-Backdoor-Attacking/tree/master/Instructional_Model_Backdoor), which is based on the open-source code 
 [Stanford_Alpaca](https://github.com/tatsu-lab/stanford_alpaca). 
 
-We use the command in [Instructional_Model_Backdoor/scripts](https://github.com/hychaochao/Chat-Models-Backdoor-Attacking/tree/master/Instructional_Model_Backdoor/scripts) 
+We use the command in [`Instructional_Model_Backdoor/scripts`](https://github.com/hychaochao/Chat-Models-Backdoor-Attacking/tree/master/Instructional_Model_Backdoor/scripts) 
 to train [TinyAlpaca-1.1B](https://huggingface.co/luckychao/TinyAlpaca-1.1B) 
 and [Alpaca-2-7B](https://huggingface.co/NEU-HAI/Llama-2-7b-alpaca-cleaned). 
 
 ### Inference
-For the chat model, you can use the command in [scripts/inference.sh](https://github.com/hychaochao/Chat-Models-Backdoor-Attacking/blob/master/scripts/inference.sh) 
+For the chat model, you can use the command in [`scripts/inference.sh`](https://github.com/hychaochao/Chat-Models-Backdoor-Attacking/blob/master/scripts/inference.sh) 
 to make inferences. 
 
-For the instructional models, you can use the command in [Instructional_Model_Backdoor/scripts/inference.sh](https://github.com/hychaochao/Chat-Models-Backdoor-Attacking/blob/master/Instructional_Model_Backdoor/scripts/train_ds.sh)
+For the instructional models, you can use the command in [`Instructional_Model_Backdoor/scripts/inference.sh`](https://github.com/hychaochao/Chat-Models-Backdoor-Attacking/blob/master/Instructional_Model_Backdoor/scripts/train_ds.sh)
 to make inferences.
 
 ## Citation
